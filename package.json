@@ -1,0 +1,38 @@
+{
+  "name": "luau-path",
+  "version": "0.1.0",
+  "description": "A Luau library to handle file paths based on the Rust path library",
+  "license": "MIT",
+  "author": "jeparlefrancais <jeparlefrancais21@gmail.com>",
+  "homepage": "https://github.com/seaofvoices/luau-path#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seaofvoices/luau-path.git"
+  },
+  "keywords": [
+    "luau",
+    "path"
+  ],
+  "main": "src/init.lua",
+  "scripts": {
+    "build": "sh ./scripts/build.sh",
+    "clean": "rm -rf node_modules build temp",
+    "format": "stylua .",
+    "lint": "sh ./scripts/analyze.sh && selene src",
+    "lint:luau": "sh ./scripts/analyze.sh",
+    "lint:selene": "selene src",
+    "prepare": "npmluau",
+    "style-check": "stylua . --check",
+    "test:roblox": "sh ./scripts/roblox-test.sh",
+    "verify-pack": "yarn pack --dry-run"
+  },
+  "dependencies": {
+    "luau-disk": "^0.1.1"
+  },
+  "devDependencies": {
+    "@jsdotlua/jest": "^3.6.1-rc.2",
+    "@jsdotlua/jest-globals": "^3.6.1-rc.2",
+    "npmluau": "^0.1.1"
+  },
+  "packageManager": "yarn@4.2.2"
+}

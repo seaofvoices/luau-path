@@ -1,0 +1,9 @@
+std = "selene_defs"
+
+[rules]
+global_usage = "allow"
+shadowing = "allow"
+bad_string_escape = "allow"
+
+[config]
+empty_if = { comments_count = true }
