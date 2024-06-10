@@ -8,6 +8,10 @@
 
 A Luau library to handle file paths based on the Rust [path](https://doc.rust-lang.org/std/path/struct.Path.html) library.
 
+The library can be configured to use unix or windows style separator using the global variable `SYS_PATH_SEPARATOR`. The global should be defined to `'/'` or `'\'`.
+
+When the global is not defined, it will default to `'/'`. If a `LUA_ENV` global variable is set to [`lune`](https://github.com/lune-org/lune), the path separator will be inferred from lune's [process](https://lune-org.github.io/docs/api-reference/process#os) built-in library.
+
 ## Installation
 
 Add `luau-path` in your dependencies:
@@ -119,8 +123,8 @@ function Path:isAbsolute(): boolean
 
 Returns true if the Path is absolute, i.e., if it is independent of the current directory.
 
-    - On Unix, a path is absolute if it starts with the root, so `isAbsolute` and [`hasRoot`](#hasroot) are equivalent.
-    - On Windows, a path is absolute if it has a prefix and starts with the root: `c:\windows` is absolute, while `c:temp` and `\temp` are not.
+- On Unix, a path is absolute if it starts with the root, so `isAbsolute` and [`hasRoot`](#hasroot) are equivalent.
+- On Windows, a path is absolute if it has a prefix and starts with the root: `c:\windows` is absolute, while `c:temp` and `\temp` are not.
 
 
 ### isRelative
@@ -136,7 +140,7 @@ See [isAbsolute](#isabsolute)'s documentation for more details.
 Examples
 
 ```lua
-assert(Path::new("foo.txt").is_relative())
+assert(Path.new("foo.txt"):isRelative())
 ```
 
 ### hasRoot
@@ -149,15 +153,15 @@ Returns `true` if the Path has a root.
 
 - On Unix, a path has a root if it begins with `/`.
 - On Windows, a path has a root if it:
-    - has no prefix and begins with a separator, e.g., `\windows`
-    - has a prefix followed by a separator, e.g., `c:\windows` but not `c:windows`
-    - has any non-disk prefix, e.g., `\\server\share`
+  - has no prefix and begins with a separator, e.g., `\windows`
+  - has a prefix followed by a separator, e.g., `c:\windows` but not `c:windows`
+  - has any non-disk prefix, e.g., `\\server\share`
 
 Examples
 
 ```lua
-assert(Path::new("/etc/passwd").has_root())
-``
+assert(Path.new("/etc/passwd"):hasRoot())
+```
 
 ### parent
 
@@ -229,14 +233,14 @@ Only considers whole path components to match.
 function Path:fileStem(): string?
 ```
 
-Extracts the stem (non-extension) portion of `self:file_name()`.
+Extracts the stem (non-extension) portion of `self:fileName()`.
 
 The stem is:
 
-    - `nil`, if there is no file name;
-    - The entire file name if there is no embedded `.`;
-    - The entire file name if the file name begins with `.` and has no other `.`s within;
-    - Otherwise, the portion of the file name before the final `.`
+- `nil`, if there is no file name;
+- The entire file name if there is no embedded `.`;
+- The entire file name if the file name begins with `.` and has no other `.`s within;
+- Otherwise, the portion of the file name before the final `.`
 
 _See Also_
 
@@ -248,15 +252,15 @@ This method is similar to [`filePrefix`](#fileprefix), which extracts the portio
 function Path:filePrefix(): string?
 ```
 
-Extracts the prefix of self.file_name.
+Extracts the prefix of `self:fileName()`.
 
 The prefix is:
 
-    - `nil`, if there is no file name;
-    - The entire file name if there is no embedded `.`;
-    - The portion of the file name before the first non-beginning `.`;
-    - The entire file name if the file name begins with `.` and has no other `.`s within;
-    - The portion of the file name before the second `.` if the file name begins with `.`
+- `nil`, if there is no file name;
+- The entire file name if there is no embedded `.`;
+- The portion of the file name before the first non-beginning `.`;
+- The entire file name if the file name begins with `.` and has no other `.`s within;
+- The portion of the file name before the second `.` if the file name begins with `.`
 
 _See Also_
 
@@ -268,14 +272,14 @@ This method is similar to [`fileStem`](#filestem), which extracts the portion of
 function Path:extension(): string?
 ```
 
-Extracts the extension (without the leading dot) of self.file_name, if possible.
+Extracts the extension (without the leading dot) of `self:fileName()`, if possible.
 
 The extension is:
 
-    - `nil`, if there is no file name;
-    - `nil`, if there is no embedded `.`;
-    - `nil`, if the file name begins with `.` and has no other `.`s within;
-    - Otherwise, the portion of the file name after the final `.`
+- `nil`, if there is no file name;
+- `nil`, if there is no embedded `.`;
+- `nil`, if the file name begins with `.` and has no other `.`s within;
+- Otherwise, the portion of the file name after the final `.`
 
 ### join
 
@@ -319,9 +323,9 @@ Produces an iterator over the Components of the path.
 
 When parsing the path, there is a small amount of normalization:
 
-    - Repeated separators are ignored, so a/b and a//b both have a and b as components.
-    - Occurrences of . are normalized away, except if they are at the beginning of the path. For example, a/./b, a/b/, a/b/. and a/b all have a and b as components, but ./a/b starts with an additional CurDir component.
-    - A trailing slash is normalized away, /a/b and /a/b/ are equivalent.
+- Repeated separators are ignored, so a/b and a//b both have a and b as components.
+- Occurrences of . are normalized away, except if they are at the beginning of the path. For example, a/./b, a/b/, a/b/. and a/b all have a and b as components, but ./a/b starts with an additional CurDir component.
+- A trailing slash is normalized away, /a/b and /a/b/ are equivalent.
 
 Note that no other normalization takes place; in particular, `a/c` and `a/b/../c` are distinct, to account for the possibility that `b` is a symbolic link (so its parent isn't `a`).
 
@@ -345,9 +349,9 @@ If `path` is absolute, it replaces the current path.
 
 On Windows:
 
-    - if `path` has a root but no prefix (e.g., `\windows`), it replaces everything except for the prefix (if any) of self.
-    - if `path` has a prefix but no root, it replaces `self`.
-    - if `self` has a verbatim prefix (e.g. `\\?\C:\windows`) and `path` is not empty, the new path is normalized: all references to `.` and `..` are removed.
+- if `path` has a root but no prefix (e.g., `\windows`), it replaces everything except for the prefix (if any) of self.
+- if `path` has a prefix but no root, it replaces `self`.
+- if `self` has a verbatim prefix (e.g. `\\?\C:\windows`) and `path` is not empty, the new path is normalized: all references to `.` and `..` are removed.
 
 Consider using [`join`](#join) if you need a new Path instead of using this function on a cloned Path.
 
