@@ -45,9 +45,11 @@ Constructors:
 - [Path.from](#pathfrom)
 
 Static functions:
+
 - [Path.is](#pathis)
 
 Path methods:
+
 - [ancestors](#ancestors)
 - [clear](#clear)
 - [components](#components)
@@ -125,7 +127,6 @@ Returns true if the Path is absolute, i.e., if it is independent of the current 
 
 - On Unix, a path is absolute if it starts with the root, so `isAbsolute` and [`hasRoot`](#hasroot) are equivalent.
 - On Windows, a path is absolute if it has a prefix and starts with the root: `c:\windows` is absolute, while `c:temp` and `\temp` are not.
-
 
 ### isRelative
 
@@ -391,7 +392,7 @@ If `self:extension()` is `nil`, the extension is added; otherwise it is replaced
 
 If extension is the empty string, `self:extension()` will be None afterwards, not `""`.
 
-__Caveats__
+**Caveats**
 
 The new extension may contain dots and will be used in its entirety, but only the part after the final dot will be reflected in `self:extension()`.
 
