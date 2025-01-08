@@ -84,14 +84,20 @@ type AsPath = string | Path | Components
 ### Path.new
 
 ```lua
-function Path.new(): Path
+function Path.new(path: string): Path
 ```
+
+Creates a new path from the given `string`.
 
 ### Path.from
 
 ```lua
 function Path.from(path: AsPath): Path
 ```
+
+Creates a new path from a `string `or a [`Components`](#components) iterator, or return the given Path object.
+
+This function errors if the value does not satisfy the `AsPath` type.
 
 ### Path.is
 
