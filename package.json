@@ -1,6 +1,6 @@
 {
   "name": "luau-path",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Luau library to handle file paths based on the Rust path library",
   "license": "MIT",
   "author": "jeparlefrancais <jeparlefrancais21@gmail.com>",
