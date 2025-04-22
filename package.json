@@ -13,7 +13,7 @@
     "luau",
     "path"
   ],
-  "main": "src/init.lua",
+  "main": "src/init.luau",
   "scripts": {
     "build": "sh ./scripts/build.sh",
     "clean": "rm -rf node_modules build temp",

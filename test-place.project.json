@@ -9,13 +9,13 @@
       "TestTarget": {
         "$path": "./src",
         "jest.config": {
-          "$path": "./jest.config.lua"
+          "$path": "./jest.config.luau"
         }
       }
     },
     "ServerScriptService": {
       "RunTests": {
-        "$path": "./scripts/roblox-test.server.lua"
+        "$path": "./scripts/roblox-test.server.luau"
       }
     },
     "HttpService": {
