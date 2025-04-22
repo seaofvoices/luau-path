@@ -81,12 +81,12 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - artifact-name: luau-path.lua
-            path: build/luau-path.lua
+          - artifact-name: luau-path.luau
+            path: build/luau-path.luau
             asset-type: text/plain
 
-          - artifact-name: luau-path-dev.lua
-            path: build/debug/luau-path.lua
+          - artifact-name: luau-path-dev.luau
+            path: build/debug/luau-path.luau
             asset-type: text/plain
 
           - artifact-name: luau-path.rbxm

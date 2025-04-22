@@ -22,4 +22,4 @@ cp -rL node_modules/ temp/
 rm -f "$BUILD_OUTPUT"
 mkdir -p $(dirname "$BUILD_OUTPUT")
 
-darklua process --config "$DARKLUA_CONFIG" temp/src/init.lua "$BUILD_OUTPUT"
+darklua process --config "$DARKLUA_CONFIG" temp/src/init.luau "$BUILD_OUTPUT"

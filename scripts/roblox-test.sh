@@ -19,17 +19,17 @@ fi
 rojo sourcemap test-place.project.json -o sourcemap.json
 
 run_tests () {
-    SYS_PATH_SEPARATOR="$1" darklua process --config $DARKLUA_CONFIG jest.config.lua temp/jest.config.lua
-    SYS_PATH_SEPARATOR="$1" darklua process --config $DARKLUA_CONFIG scripts/roblox-test.server.lua temp/scripts/roblox-test.server.lua
+    SYS_PATH_SEPARATOR="$1" darklua process --config $DARKLUA_CONFIG jest.config.luau temp/jest.config.luau
+    SYS_PATH_SEPARATOR="$1" darklua process --config $DARKLUA_CONFIG scripts/roblox-test.server.luau temp/scripts/roblox-test.server.luau
     SYS_PATH_SEPARATOR="$1" darklua process --config $DARKLUA_CONFIG node_modules temp/node_modules
     SYS_PATH_SEPARATOR="$1" darklua process --config $DARKLUA_CONFIG src temp/src
 
-    # cat temp/src/sys/path/init.lua
+    # cat temp/src/sys/path/init.luau
     cp test-place.project.json temp/
 
     rojo build temp/test-place.project.json -o temp/test-place.rbxl
 
-    run-in-roblox --place temp/test-place.rbxl --script temp/scripts/roblox-test.server.lua
+    run-in-roblox --place temp/test-place.rbxl --script temp/scripts/roblox-test.server.luau
 }
 
 run_tests ''
