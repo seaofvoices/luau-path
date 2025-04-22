@@ -464,13 +464,9 @@ function Path:setExtension(extension: string): boolean
         return false
     end
 
-    local fileStem = fileStem :: string
-
-    self._inner = string.sub(self._inner, 1, #fileStem)
-
-    if extension ~= '' then
-        self._inner ..= '.' .. extension
-    end
+    self:pop()
+    -- add the new extension, if any
+    self:push(if extension ~= '' then fileStem .. '.' .. extension else fileStem)
 
     return true
 end
