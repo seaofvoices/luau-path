@@ -126,47 +126,18 @@ describe('endsWith', function()
                     .. (if expected then 'ends' else 'does not end')
                     .. ` with '{display(suffix)}'`,
                 function()
-                    -- print('---- PARENT ----')
-                    -- for _, c in Path.new(path):components():collect() do
-                    --     print('->', tostring(c))
-                    -- end
-                    -- print('---- PARENT #2 ----')
-                    -- for _, c in Path.new(path):components() do
-                    --     print('->', tostring(c))
-                    -- end
-                    -- print('---- PARENT #3 ----')
-                    -- local comps = Path.new(path):components()
-                    -- local d = require('@pkg/luau-disk')
-                    -- for _, c in
-                    --     d.Array.reverse(d.Array.fromFn(function()
-                    --         return comps:nextBack()
-                    --     end))
-                    -- do
-                    --     print('->', tostring(c))
-                    -- end
-
-                    -- print('---- REV PARENT ----')
-                    -- for _, c in Path.new(path):components():rev():collect() do
-                    --     print('->', tostring(c))
-                    -- end
-
-                    -- print('---- REV PARENT #2 ----')
-                    -- for _, c in Path.new(path):components():rev() do
-                    --     print('->', tostring(c))
-                    -- end
-
                     expect(Path.new(path):endsWith(suffix)).toEqual(expected)
                 end
             )
 
-            -- it(
-            --     `checks if '{display(path)}' `
-            --         .. (if expected then 'ends' else 'does not end')
-            --         .. ` with '{display(suffix)}' (as path)`,
-            --     function()
-            --         expect(Path.new(path):endsWith(Path.new(suffix))).toEqual(expected)
-            --     end
-            -- )
+            it(
+                `checks if '{display(path)}' `
+                    .. (if expected then 'ends' else 'does not end')
+                    .. ` with '{display(suffix)}' (as path)`,
+                function()
+                    expect(Path.new(path):endsWith(Path.new(suffix))).toEqual(expected)
+                end
+            )
         end
     end
 end)
