@@ -40,22 +40,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jsdotlua/diff-sequences@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/diff-sequences@npm:3.6.1-rc.2"
+"@jsdotlua/diff-sequences@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/diff-sequences@npm:3.10.0"
   dependencies:
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-  checksum: 10c0/8131dfffd336cfd7a2d38d974145156163c85c13bfc5dc4d36cb9d3735ffaa977751782dfca2d119dccc00badbf1120eef2d399586a5748329da7137030dda01
+  checksum: 10c0/27c46bfbf08e80ae956f78cb2747c203f6deafcbe00d4c50301c67040a70b6601a1cfe7a7451d59dd4e43f75ac68f3e42dab038b1d8e4aa078d6eba922da7d50
   languageName: node
   linkType: hard
 
-"@jsdotlua/emittery@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/emittery@npm:3.6.1-rc.2"
+"@jsdotlua/emittery@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/emittery@npm:3.10.0"
   dependencies:
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
     "@jsdotlua/promise": "npm:^3.5.0"
-  checksum: 10c0/b7093886298b74837a4fa265c197419579cab06e2d9353ce752f5013bd8a05e29be35865a6ef66258ea2d45af046c7c98e24520489ba54729b5ea682c22a8466
+  checksum: 10c0/3175bec250043c636c3a0678360f7588423b7a2f3c0fedc96e3c1a4c125cd1319f63f35e7f8fee4164937faf18dc81dedf1dc083fc3e37178a83a8f0a03618bb
   languageName: node
   linkType: hard
 
@@ -66,20 +66,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jsdotlua/expect@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/expect@npm:3.6.1-rc.2"
+"@jsdotlua/expect@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/expect@npm:3.10.0"
   dependencies:
-    "@jsdotlua/jest-get-type": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-matcher-utils": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-message-util": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-roblox-shared": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-snapshot": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-util": "npm:^3.6.1-rc.2"
+    "@jsdotlua/jest-get-type": "npm:^3.10.0"
+    "@jsdotlua/jest-matcher-utils": "npm:^3.10.0"
+    "@jsdotlua/jest-message-util": "npm:^3.10.0"
+    "@jsdotlua/jest-roblox-shared": "npm:^3.10.0"
+    "@jsdotlua/jest-snapshot": "npm:^3.10.0"
+    "@jsdotlua/jest-util": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
     "@jsdotlua/promise": "npm:^3.5.0"
     luau-regexp: "npm:^0.2.1"
-  checksum: 10c0/7733242b925f053095321427bf082a387c4d2220ea6f64830d8849837792c362cc7dc81ef8563905733aa4811ffb1dc6764f3093dc5bc2eb5a7850e53e8e5a84
+  checksum: 10c0/1ee815559f01142962ffa136e311e0c83220baa5214954c4564fd503bba04f07c5a034e0b937433065678d2f13dc5506f67a39412ae5e3d5ba9df52ff068d5d6
   languageName: node
   linkType: hard
 
@@ -90,353 +90,366 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-circus@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-circus@npm:3.6.1-rc.2"
+"@jsdotlua/jest-circus@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-circus@npm:3.10.0"
   dependencies:
     "@jsdotlua/chalk": "npm:^0.2.1"
-    "@jsdotlua/expect": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-each": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-environment": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-matcher-utils": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-message-util": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-roblox-shared": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-runtime": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-snapshot": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-test-result": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-util": "npm:^3.6.1-rc.2"
+    "@jsdotlua/expect": "npm:^3.10.0"
+    "@jsdotlua/jest-each": "npm:^3.10.0"
+    "@jsdotlua/jest-environment": "npm:^3.10.0"
+    "@jsdotlua/jest-matcher-utils": "npm:^3.10.0"
+    "@jsdotlua/jest-message-util": "npm:^3.10.0"
+    "@jsdotlua/jest-roblox-shared": "npm:^3.10.0"
+    "@jsdotlua/jest-runtime": "npm:^3.10.0"
+    "@jsdotlua/jest-snapshot": "npm:^3.10.0"
+    "@jsdotlua/jest-test-result": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
+    "@jsdotlua/jest-util": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-    "@jsdotlua/pretty-format": "npm:^3.6.1-rc.2"
+    "@jsdotlua/pretty-format": "npm:^3.10.0"
     "@jsdotlua/promise": "npm:^3.5.0"
-    "@jsdotlua/throat": "npm:^3.6.1-rc.2"
+    "@jsdotlua/throat": "npm:^3.10.0"
     luau-regexp: "npm:^0.2.1"
-  checksum: 10c0/9afc7a29c871fd5e6ebf330dd9e428e3570b4d9581e248c24edae93a1e54fa917e41173cbd7672c1fea8fd6d7e4ee06b23fb8199bd5f87e726b50fd4d652fe49
+  checksum: 10c0/94ba82249c610fba35f5c2dc73ff362f0c1517bfa30936b587675bd57821157780544dbba53c040d596ec1e78ffd731cf36a4d04e811bfb70bc750c065519170
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-config@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-config@npm:3.6.1-rc.2"
+"@jsdotlua/jest-config@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-config@npm:3.10.0"
   dependencies:
     "@jsdotlua/chalk": "npm:^0.2.1"
-    "@jsdotlua/jest-each": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-environment-roblox": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-get-type": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-message-util": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-roblox-shared": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-util": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-validate": "npm:^3.6.1-rc.2"
+    "@jsdotlua/jest-each": "npm:^3.10.0"
+    "@jsdotlua/jest-environment-roblox": "npm:^3.10.0"
+    "@jsdotlua/jest-get-type": "npm:^3.10.0"
+    "@jsdotlua/jest-message-util": "npm:^3.10.0"
+    "@jsdotlua/jest-roblox-shared": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
+    "@jsdotlua/jest-util": "npm:^3.10.0"
+    "@jsdotlua/jest-validate": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-    "@jsdotlua/promise": "npm:^3.5.0"
-    luau-regexp: "npm:^0.2.1"
-  checksum: 10c0/91cdb06da5681c05328cd1e0796c98b0685a7bc766fc5d3190718a79d6755b717598aee8189511947629e903568776e66fffc01bf4b2436c7df2a4fc611ee359
-  languageName: node
-  linkType: hard
-
-"@jsdotlua/jest-console@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-console@npm:3.6.1-rc.2"
-  dependencies:
-    "@jsdotlua/chalk": "npm:^0.2.1"
-    "@jsdotlua/jest-each": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-message-util": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-mock": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-roblox-shared": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-util": "npm:^3.6.1-rc.2"
-    "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-  checksum: 10c0/b3430756752f1b9df7682fe1bb8c4343e4638ebc0cff0251276049138232045f20f06ef2f3a029758c9d4c40c001b70904b80ebb798c5d251a2fabd90d5866a4
-  languageName: node
-  linkType: hard
-
-"@jsdotlua/jest-core@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-core@npm:3.6.1-rc.2"
-  dependencies:
-    "@jsdotlua/chalk": "npm:^0.2.1"
-    "@jsdotlua/emittery": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-config": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-console": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-message-util": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-reporters": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-roblox-shared": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-runner": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-runtime": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-snapshot": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-test-result": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-util": "npm:^3.6.1-rc.2"
-    "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-    "@jsdotlua/pretty-format": "npm:^3.6.1-rc.2"
     "@jsdotlua/promise": "npm:^3.5.0"
     luau-regexp: "npm:^0.2.1"
-  checksum: 10c0/8294c3bd8328445ebced024d0094f11e427ffdcc3f4e19b4b0728d963ff44864edf90572d53d2f0d922554b72282439df76e2e74ce8357b98607c51483440c90
+  checksum: 10c0/08df57d0e36f99f498176e39beac4588489f035f49fe9d2a549f40dcdcc39a7a05bab69d3d020d10a90b874efb8ce242297462ed5b02cd096cc6dc38a41f2eaa
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-diff@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-diff@npm:3.6.1-rc.2"
+"@jsdotlua/jest-console@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-console@npm:3.10.0"
   dependencies:
     "@jsdotlua/chalk": "npm:^0.2.1"
-    "@jsdotlua/diff-sequences": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-get-type": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
+    "@jsdotlua/jest-each": "npm:^3.10.0"
+    "@jsdotlua/jest-message-util": "npm:^3.10.0"
+    "@jsdotlua/jest-mock": "npm:^3.10.0"
+    "@jsdotlua/jest-roblox-shared": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
+    "@jsdotlua/jest-util": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-    "@jsdotlua/pretty-format": "npm:^3.6.1-rc.2"
-  checksum: 10c0/e7bd52319e178212ca696bd3c47c3ced5251bf4e62ac57a0e4bfdda79c648c2ce815da34b0423ddcbe0fc260bc595ee5ea4ac1300e1052c8a60e0d3d23217ac5
+  checksum: 10c0/cf40b9044ef70cf8f83b7496cf47d65b2b8b56c0d42e39ca29e13029a929c8fb2e24cc8397477ef7f4dcd2575551a29b023ec39592bc91e1f58aba7a06c27b35
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-each@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-each@npm:3.6.1-rc.2"
+"@jsdotlua/jest-core@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-core@npm:3.10.0"
   dependencies:
     "@jsdotlua/chalk": "npm:^0.2.1"
-    "@jsdotlua/jest-get-type": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-util": "npm:^3.6.1-rc.2"
+    "@jsdotlua/emittery": "npm:^3.10.0"
+    "@jsdotlua/jest-config": "npm:^3.10.0"
+    "@jsdotlua/jest-console": "npm:^3.10.0"
+    "@jsdotlua/jest-message-util": "npm:^3.10.0"
+    "@jsdotlua/jest-reporters": "npm:^3.10.0"
+    "@jsdotlua/jest-roblox-shared": "npm:^3.10.0"
+    "@jsdotlua/jest-runner": "npm:^3.10.0"
+    "@jsdotlua/jest-runtime": "npm:^3.10.0"
+    "@jsdotlua/jest-snapshot": "npm:^3.10.0"
+    "@jsdotlua/jest-test-result": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
+    "@jsdotlua/jest-util": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-    "@jsdotlua/pretty-format": "npm:^3.6.1-rc.2"
+    "@jsdotlua/pretty-format": "npm:^3.10.0"
+    "@jsdotlua/promise": "npm:^3.5.0"
     luau-regexp: "npm:^0.2.1"
-  checksum: 10c0/91d37f0a6e2fb291f229aabc5f7b0e839827e8751f3fd33a4754ffda51b325d9dd814d518753cb47c8dcad3ae249e3b881d0ffd0aa21a6af74afdb27a67a779d
+  checksum: 10c0/38e63703abb934057d4ebcb55ca16ebccf7195dfb9fc4370fcd4ea672c1f2fb8950256ee783071a468ccefd00a6173772b6a301423208d3d334b5a5fcf42431c
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-environment-roblox@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-environment-roblox@npm:3.6.1-rc.2"
+"@jsdotlua/jest-diff@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-diff@npm:3.10.0"
   dependencies:
-    "@jsdotlua/jest-environment": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-fake-timers": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-mock": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
+    "@jsdotlua/chalk": "npm:^0.2.1"
+    "@jsdotlua/diff-sequences": "npm:^3.10.0"
+    "@jsdotlua/jest-get-type": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
+    "@jsdotlua/luau-polyfill": "npm:^1.2.6"
+    "@jsdotlua/pretty-format": "npm:^3.10.0"
+  checksum: 10c0/91f12e070f90decb66b172e96c60205d74bac9e7004b556a488f629b413b841da2069845d47c4bcdbffe49dfbd7216dbe0683af8716f3962a379467a511e574a
+  languageName: node
+  linkType: hard
+
+"@jsdotlua/jest-each@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-each@npm:3.10.0"
+  dependencies:
+    "@jsdotlua/chalk": "npm:^0.2.1"
+    "@jsdotlua/jest-get-type": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
+    "@jsdotlua/jest-util": "npm:^3.10.0"
+    "@jsdotlua/luau-polyfill": "npm:^1.2.6"
+    "@jsdotlua/pretty-format": "npm:^3.10.0"
+    luau-regexp: "npm:^0.2.1"
+  checksum: 10c0/0236ee91a7271a2f629ca6eb12b12abf2b08fc1ccd7f43c9932a30c5543b7e43e769282b5cf17f17399394dc81405d9688aad25d0f1ba00da62f11a678aee6e4
+  languageName: node
+  linkType: hard
+
+"@jsdotlua/jest-environment-roblox@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-environment-roblox@npm:3.10.0"
+  dependencies:
+    "@jsdotlua/jest-environment": "npm:^3.10.0"
+    "@jsdotlua/jest-fake-timers": "npm:^3.10.0"
+    "@jsdotlua/jest-mock": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
     "@jsdotlua/promise": "npm:^3.5.0"
-  checksum: 10c0/0ad8b4fb6a140577091d188c4c441109532b638054380c6cd102276fcd835c771d807d6017d72aaa486ca390294adbc42afa6d8471c3ea826bec7914668bfe06
+  checksum: 10c0/19f91b1338003eb4faf19c94fe196426e3e579aea9f317206ebb10b09f800ff38ebf3f19bff05ab13928483c31b0bd4d3a5410f7c8ddf507baa3762b9dd0b6b0
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-environment@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-environment@npm:3.6.1-rc.2"
+"@jsdotlua/jest-environment@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-environment@npm:3.10.0"
   dependencies:
-    "@jsdotlua/jest-fake-timers": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-mock": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
+    "@jsdotlua/jest-fake-timers": "npm:^3.10.0"
+    "@jsdotlua/jest-mock": "npm:^3.10.0"
+    "@jsdotlua/jest-mock-genv": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-  checksum: 10c0/9174d88955fd68380bae0118e8600547c62816d006ba070a7397a7d0cd70a88403e3d7c1407d5da1da0e5b6aa8799ca12e4c2ec92ec9796de29201a4c9e4acba
+  checksum: 10c0/5844c23cd79bf89c01fb4e43b23d24af5e12ea5f76e39f415a5a856f784877e3f3dd83ffbc4a3508a8417d0561150512e6afaf4365592f89cadd11684960b319
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-fake-timers@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-fake-timers@npm:3.6.1-rc.2"
+"@jsdotlua/jest-fake-timers@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-fake-timers@npm:3.10.0"
   dependencies:
-    "@jsdotlua/jest-get-type": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-mock": "npm:^3.6.1-rc.2"
+    "@jsdotlua/jest-get-type": "npm:^3.10.0"
+    "@jsdotlua/jest-mock": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-  checksum: 10c0/5650e726c80be8fe04fa1b6bcd2a3aee66b146ebbccd102b1c5416516bee5dff284e13f098aba163e01672a82f4cd6a3254d0fb208b65dd9529258b437a8c43e
+  checksum: 10c0/e5f5e57b353ccd26783abf6a230122c68a6112ad8c9238538dfe0356a865e858ea5df30b2dbf4031005955e5b7f5f520ca8df086841e71141c01f81616d23525
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-get-type@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-get-type@npm:3.6.1-rc.2"
+"@jsdotlua/jest-get-type@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-get-type@npm:3.10.0"
   dependencies:
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
     luau-regexp: "npm:^0.2.1"
-  checksum: 10c0/6216f048dc17275a321ff1f8c96788ec3bab39bb9c8894b216a2419fe7e468448e970a820751a2b64b2a60bb8ebbd5105425927a9895332c234744203659419f
+  checksum: 10c0/7b5c4d51a7cf915dddf9d103b5ad914c0256d6ec51d4574d6ac7c3dbee41c5d1d2da17199e96f3b187914daf5c9890c09e8dc1ac98cfa477c6b8fb288a3974c4
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-globals@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-globals@npm:3.6.1-rc.2"
+"@jsdotlua/jest-globals@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-globals@npm:3.10.0"
   dependencies:
-    "@jsdotlua/expect": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-environment": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
+    "@jsdotlua/expect": "npm:^3.10.0"
+    "@jsdotlua/jest-environment": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-  checksum: 10c0/d9324045c7adc930db71f586e7c886ec9b3165978b271e93d07ee0537dcb22126a414ed2efbf6b62f6aa1f7cedd687ce5b3d6f5ad55ff0470b6562421dee658d
+  checksum: 10c0/47ae780b9a25d7f8c021f1dede112d74128c7e4c9d40639164157dee4e9e2591d4d90a303c5fa30806c7e972f334c77623e14fa235a014b80df9ffac12f572c2
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-matcher-utils@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-matcher-utils@npm:3.6.1-rc.2"
+"@jsdotlua/jest-matcher-utils@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-matcher-utils@npm:3.10.0"
   dependencies:
     "@jsdotlua/chalk": "npm:^0.2.1"
-    "@jsdotlua/jest-diff": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-get-type": "npm:^3.6.1-rc.2"
+    "@jsdotlua/jest-diff": "npm:^3.10.0"
+    "@jsdotlua/jest-get-type": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-    "@jsdotlua/pretty-format": "npm:^3.6.1-rc.2"
+    "@jsdotlua/pretty-format": "npm:^3.10.0"
     luau-regexp: "npm:^0.2.1"
-  checksum: 10c0/156c6fa299c10eb1bda2f1e15f4a9de8e1f9a3a0d8982a012b7e51c17dbd3a668c882bdfb07a6910f19018cb6610700289b83736d2a8ff6c9296d50777ab7081
+  checksum: 10c0/51a4c56e3b53e16d48de1e8f62c74f47b72a26d7241a6e70b9174fad109c55093898e12950f488976209e09eb1346f37ac296219158fd0bddca4f8411df6453a
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-message-util@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-message-util@npm:3.6.1-rc.2"
+"@jsdotlua/jest-message-util@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-message-util@npm:3.10.0"
   dependencies:
     "@jsdotlua/chalk": "npm:^0.2.1"
-    "@jsdotlua/jest-roblox-shared": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
+    "@jsdotlua/jest-roblox-shared": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-    "@jsdotlua/pretty-format": "npm:^3.6.1-rc.2"
+    "@jsdotlua/pretty-format": "npm:^3.10.0"
     luau-regexp: "npm:^0.2.1"
-  checksum: 10c0/48d942b4de4f6b904851e7f2e74d41a211028209d2825cef8061f14d9d0c7c760f2de62037f1b5e7c84540919c30ddd4ae333a4b1d3f72bacf28fdf7ea9c1c59
+  checksum: 10c0/b8932594b3641bbee8064f56b6beeefa0db9912821a80f227bf1807d49174878d205554e8d1f42f3f6b6dc1a580411d06054a369d56110cbb8d71926871baad3
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-mock@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-mock@npm:3.6.1-rc.2"
+"@jsdotlua/jest-mock-genv@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-mock-genv@npm:3.10.0"
   dependencies:
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-  checksum: 10c0/e77f12ac35925cb79ac7831fcf332ff3bd5dbafb016d53d77c0efa16098732a2b14f3a5b34b2be20d903ce683773dbd39ba57cde4bad7130d9fafd0931586625
+  checksum: 10c0/863744fbe455c9646339505aae3b809e4238dc2742d696fd792f204ae59a2c4ae1cb410ede0ee218a4e0da2bce15a51454be8a08368990243878b6457854ba8f
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-reporters@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-reporters@npm:3.6.1-rc.2"
+"@jsdotlua/jest-mock@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-mock@npm:3.10.0"
   dependencies:
-    "@jsdotlua/chalk": "npm:^0.2.1"
-    "@jsdotlua/jest-console": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-message-util": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-mock": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-roblox-shared": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-test-result": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-util": "npm:^3.6.1-rc.2"
+    "@jsdotlua/jest-mock-genv": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-    "@jsdotlua/path": "npm:^3.6.1-rc.2"
-  checksum: 10c0/90e0d034084085ed873bd10b1a5742d08b0807da1bcfe380043e7dbdfcc3f4ad0048472c65ca73a13c40d182baa5e6596dea0ec6c2898df99a413b561864ea3d
+  checksum: 10c0/534e0d4f1a4c1028a1e7e2242676f653a484d91f4ff6b78a41d5a4ff1e25d19c8b8a05efb0d7162377c9e48553594d2333b544426ab3abe9de99d655fd45b582
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-roblox-shared@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-roblox-shared@npm:3.6.1-rc.2"
-  dependencies:
-    "@jsdotlua/jest-get-type": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-mock": "npm:^3.6.1-rc.2"
-    "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-  checksum: 10c0/61c13286784a247ec8a0f17bd4f6a7740bd1f41277569e5dfad60072f6cdf40d5d163b67d0cbd5d1d0ca4a1c705a4eaa09e87a624709ff494c0b2c4e7af374ff
-  languageName: node
-  linkType: hard
-
-"@jsdotlua/jest-runner@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-runner@npm:3.6.1-rc.2"
+"@jsdotlua/jest-reporters@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-reporters@npm:3.10.0"
   dependencies:
     "@jsdotlua/chalk": "npm:^0.2.1"
-    "@jsdotlua/emittery": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-circus": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-console": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-environment": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-message-util": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-roblox-shared": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-runtime": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-test-result": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-util": "npm:^3.6.1-rc.2"
+    "@jsdotlua/jest-console": "npm:^3.10.0"
+    "@jsdotlua/jest-message-util": "npm:^3.10.0"
+    "@jsdotlua/jest-mock": "npm:^3.10.0"
+    "@jsdotlua/jest-roblox-shared": "npm:^3.10.0"
+    "@jsdotlua/jest-test-result": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
+    "@jsdotlua/jest-util": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-    "@jsdotlua/pretty-format": "npm:^3.6.1-rc.2"
+    "@jsdotlua/path": "npm:^3.10.0"
+  checksum: 10c0/17e6dd57b82057f5f2b06c31ab3b1975076629c99b93ae06b255f0ac06bd12df4e5baf2310f395aaaf38542bf448bb4c3a6fa38f6bce6916c007ede707d13412
+  languageName: node
+  linkType: hard
+
+"@jsdotlua/jest-roblox-shared@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-roblox-shared@npm:3.10.0"
+  dependencies:
+    "@jsdotlua/jest-get-type": "npm:^3.10.0"
+    "@jsdotlua/jest-mock": "npm:^3.10.0"
+    "@jsdotlua/luau-polyfill": "npm:^1.2.6"
+  checksum: 10c0/df6f3038fd89a120d5fed61e9cc669d697e07b50ffd79a4a7ff92cd233332be478d6adb1019b3192c54e220ebdf7a23e779a0f2b85cffce1f939ebad871d957f
+  languageName: node
+  linkType: hard
+
+"@jsdotlua/jest-runner@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-runner@npm:3.10.0"
+  dependencies:
+    "@jsdotlua/chalk": "npm:^0.2.1"
+    "@jsdotlua/emittery": "npm:^3.10.0"
+    "@jsdotlua/jest-circus": "npm:^3.10.0"
+    "@jsdotlua/jest-console": "npm:^3.10.0"
+    "@jsdotlua/jest-environment": "npm:^3.10.0"
+    "@jsdotlua/jest-message-util": "npm:^3.10.0"
+    "@jsdotlua/jest-roblox-shared": "npm:^3.10.0"
+    "@jsdotlua/jest-runtime": "npm:^3.10.0"
+    "@jsdotlua/jest-test-result": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
+    "@jsdotlua/jest-util": "npm:^3.10.0"
+    "@jsdotlua/luau-polyfill": "npm:^1.2.6"
+    "@jsdotlua/pretty-format": "npm:^3.10.0"
     "@jsdotlua/promise": "npm:^3.5.0"
-    "@jsdotlua/throat": "npm:^3.6.1-rc.2"
-  checksum: 10c0/3615ea2cd7056731911bfea5d82f2e133fd6fb93676867d0850ccbb1cb23d1720fddbcd7e3436d3229fc159d592d32892472b8ce622c06e677abf08d57cc2c1a
+    "@jsdotlua/throat": "npm:^3.10.0"
+  checksum: 10c0/50053023bbbbd4de32b19488f16062773d808fae0f93e0f366e2cd38a3d68f3a928a89aa04c1e092f13f59b01feef185db5446b425a713b9b813a23523899686
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-runtime@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-runtime@npm:3.6.1-rc.2"
+"@jsdotlua/jest-runtime@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-runtime@npm:3.10.0"
   dependencies:
-    "@jsdotlua/emittery": "npm:^3.6.1-rc.2"
-    "@jsdotlua/expect": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-fake-timers": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-mock": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-snapshot": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
+    "@jsdotlua/emittery": "npm:^3.10.0"
+    "@jsdotlua/expect": "npm:^3.10.0"
+    "@jsdotlua/jest-fake-timers": "npm:^3.10.0"
+    "@jsdotlua/jest-mock": "npm:^3.10.0"
+    "@jsdotlua/jest-mock-genv": "npm:^3.10.0"
+    "@jsdotlua/jest-snapshot": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
     "@jsdotlua/promise": "npm:^3.5.0"
-  checksum: 10c0/280a8142a0aec3b86446b456764f536f9bf71523f564d17e4f65a6ea13d3da1fa820eeac181101370d725e3233aa22968ad4311a2c21df7db776655dbdffa444
+  checksum: 10c0/11aee29658810e5a5c3803678fd1ff65f78d4aa7446848f77e12400bc64a0e8cc5ff83ed7480786498fa66175858d38868a04bef7afd085d74089269849108b0
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-snapshot@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-snapshot@npm:3.6.1-rc.2"
+"@jsdotlua/jest-snapshot@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-snapshot@npm:3.10.0"
   dependencies:
     "@jsdotlua/chalk": "npm:^0.2.1"
-    "@jsdotlua/jest-diff": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-get-type": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-matcher-utils": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-roblox-shared": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
+    "@jsdotlua/jest-diff": "npm:^3.10.0"
+    "@jsdotlua/jest-get-type": "npm:^3.10.0"
+    "@jsdotlua/jest-matcher-utils": "npm:^3.10.0"
+    "@jsdotlua/jest-roblox-shared": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-    "@jsdotlua/pretty-format": "npm:^3.6.1-rc.2"
+    "@jsdotlua/pretty-format": "npm:^3.10.0"
     "@jsdotlua/promise": "npm:^3.5.0"
-  checksum: 10c0/e6fef6faf7a2696aa9f032805eebb8b82c72742bdb423c9c91bea8c6ddd7ea625554d990c2ade294a108f87bea8cd7e9ad4d59f3283a97dd72087ec99833960c
+  checksum: 10c0/9b71491fae8f4ce057150355de92d0c03cf616dd4dd8b60b9394ac55e74b5e44dc4a4737c275f3ba84b8911dcc17e4b8716bc7ec041aa4c3aa770ae7d466b76c
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-test-result@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-test-result@npm:3.6.1-rc.2"
+"@jsdotlua/jest-test-result@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-test-result@npm:3.10.0"
   dependencies:
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-  checksum: 10c0/f43d418941805671415c4f68581f068803079f73d4cc4757fb72f717783540c04ac02d0856d7faa7c28873d17898cf84417b695c7ca4b939bf5aa75e0353ef3f
+  checksum: 10c0/5abf281d7ec7469ce078d40e4b26a688829b474799ea81b8ebb21b12b65b4b56c5f06d65aa44ce69cf59e12500f002be79c0eaf6d7095c2d083a265c1b544107
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-types@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-types@npm:3.6.1-rc.2"
+"@jsdotlua/jest-types@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-types@npm:3.10.0"
   dependencies:
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
     luau-regexp: "npm:^0.2.1"
-  checksum: 10c0/8777716c40e76d7bab203db368af2b67cfba7fccef9acc36c91150b4c25628da06e85f99b5bf207449cb3d51ea5bd9cc9fb8ede5102afa9ea3f9854a7a66570e
+  checksum: 10c0/9d5e6b9a114e5b65c893ce65f13f75216a55e615f3b8bf1d7b78225dcc71ec1e7668c51df729f240b420aeec1192b3d5c75d99d779b4730cd9a73e5689f4f71f
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-util@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-util@npm:3.6.1-rc.2"
+"@jsdotlua/jest-util@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-util@npm:3.10.0"
   dependencies:
     "@jsdotlua/chalk": "npm:^0.2.1"
-    "@jsdotlua/jest-roblox-shared": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-types": "npm:^3.6.1-rc.2"
+    "@jsdotlua/jest-roblox-shared": "npm:^3.10.0"
+    "@jsdotlua/jest-types": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
     "@jsdotlua/picomatch": "npm:^0.4.0"
     "@jsdotlua/promise": "npm:^3.5.0"
     luau-regexp: "npm:^0.2.1"
-  checksum: 10c0/b9a5d7ba8fe9f104922f84b493efe28a0f4622658c625a4b97d7fceb8e07651dd9b0fd20c9195c2c13c47e9569e9c6e60e081ed5cb17165d2fb51f28a7ac8ea3
+  checksum: 10c0/a128ba7b3d3ef017fdca39556241da5b955d8135e722109a5de3749b91d7137929a24a62481a840dc0dca1f0b78b9ee70b37f538fc68e93a162718b59b049372
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest-validate@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest-validate@npm:3.6.1-rc.2"
+"@jsdotlua/jest-validate@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest-validate@npm:3.10.0"
   dependencies:
     "@jsdotlua/chalk": "npm:^0.2.1"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-  checksum: 10c0/50e51e5d3ae790bd51132d82797d0931ab8866b945fa64b5890649074bd4fc06c6e4f6afe207ab0c4817a90d8fd2159504e5c9acb2328396de7715cea4e5a854
+  checksum: 10c0/76f40ba80e9c50fc5086111a66b07ac28653a7041243425d15c925c64ea31228c0fd5862578c2626d9b95641b81b03f313ec96e58b8cfb74d048f0e25f1ba6b0
   languageName: node
   linkType: hard
 
-"@jsdotlua/jest@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/jest@npm:3.6.1-rc.2"
+"@jsdotlua/jest@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/jest@npm:3.10.0"
   dependencies:
-    "@jsdotlua/jest-core": "npm:^3.6.1-rc.2"
-  checksum: 10c0/3359aca93518fa2b66c6f98034db4a6026b278a973256949ccd9cf3f8ae7f614976de79b7863d7387188bf3322036d2b4497ed35fc74801ece5099352fa079bb
+    "@jsdotlua/jest-core": "npm:^3.10.0"
+  checksum: 10c0/bb5edb5d72106201effdb69c693204a6ce46ce131e79038342e6496c682bb5e7ba65617374514e372a89ca37922853b73b3df45e0cee8219d0e5cc707bfba487
   languageName: node
   linkType: hard
 
@@ -472,12 +485,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jsdotlua/path@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/path@npm:3.6.1-rc.2"
+"@jsdotlua/path@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/path@npm:3.10.0"
   dependencies:
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
-  checksum: 10c0/60868d5161f3bfc263ebcddac8cbe83f6787f85409fc1a563ff350b9ccab05c88e934ccd7e3627ea77bd73f5e30b21dbe7d85e7a4d8445d3baf96cd42bab4877
+  checksum: 10c0/d1f18debba7f81067521f61715eb2bd50486d0b1492c1f2335028fa0239e4efe1bba0069d19a699ad2932e8100d0249090e8a348799c9e7cf0de49b902604edd
   languageName: node
   linkType: hard
 
@@ -492,17 +505,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jsdotlua/pretty-format@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/pretty-format@npm:3.6.1-rc.2"
+"@jsdotlua/pretty-format@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/pretty-format@npm:3.10.0"
   dependencies:
     "@jsdotlua/chalk": "npm:^0.2.1"
-    "@jsdotlua/jest-get-type": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-roblox-shared": "npm:^3.6.1-rc.2"
+    "@jsdotlua/jest-get-type": "npm:^3.10.0"
+    "@jsdotlua/jest-roblox-shared": "npm:^3.10.0"
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
     "@jsdotlua/react-is": "npm:^17.1.0"
     luau-regexp: "npm:^0.2.1"
-  checksum: 10c0/c82724cf7d9f84e4a12dd24fa8a13238649a76182537cc02e973a88720bf007a538d6ffea6fdb771cae6421ceea7aa221d58f126e1ab0b54f617294e7c455dfd
+  checksum: 10c0/3f249157bcdd0f41c19dc1e8eb3a07ee27a3a918c5f3d25ceaed3cc23a8ef94c6905edb4a2015f3e6bd686a83ba74c2a650a682e1814a67adfac2632f195ecd1
   languageName: node
   linkType: hard
 
@@ -541,13 +554,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jsdotlua/throat@npm:^3.6.1-rc.2":
-  version: 3.6.1-rc.2
-  resolution: "@jsdotlua/throat@npm:3.6.1-rc.2"
+"@jsdotlua/throat@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@jsdotlua/throat@npm:3.10.0"
   dependencies:
     "@jsdotlua/luau-polyfill": "npm:^1.2.6"
     "@jsdotlua/promise": "npm:^3.5.0"
-  checksum: 10c0/306215bdc4d7baf8ff79cece3b6038123ea7b9d4fa41eaaba4ec9f0c9c48a8ed2e82bdbc1a256b16257188a8236d84deac4131a9a15e0a40c48aa51e93e285a6
+  checksum: 10c0/46345a6eb6ac3f7fe7485a1d79565d03c75ec90e18c00182e4a422d7774a34caed69849fcbfb9b45ca7b7f2c660347deb090764ed97f403923cc52d7ef8d1714
   languageName: node
   linkType: hard
 
@@ -578,10 +591,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "luau-path@workspace:."
   dependencies:
-    "@jsdotlua/jest": "npm:^3.6.1-rc.2"
-    "@jsdotlua/jest-globals": "npm:^3.6.1-rc.2"
+    "@jsdotlua/jest": "npm:^3.10.0"
+    "@jsdotlua/jest-globals": "npm:^3.10.0"
     luau-disk: "npm:^0.1.1"
-    npmluau: "npm:^0.1.1"
+    npmluau: "npm:^0.1.2"
   languageName: unknown
   linkType: soft
 
@@ -592,15 +605,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npmluau@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "npmluau@npm:0.1.1"
+"npmluau@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "npmluau@npm:0.1.2"
   dependencies:
     commander: "npm:^11.0.0"
     walkdir: "npm:^0.4.1"
   bin:
     npmluau: main.js
-  checksum: 10c0/9ae22c0dcff9e85c90b4da4e8c17bc51e9b567b4a417c9767d355ff68faca4f99a2934b581743ebc8729f6851d1ba5b64597312151747252e040517d1794fbca
+  checksum: 10c0/665e23da3e4329faaa324bc98cebc23e7a540bde6dabbf8b6033dc7360fc74d635688fe712a919462bfc3d4db8c54c503c7e0cd0bf92c704b55afe4087ff0e3c
   languageName: node
   linkType: hard
 

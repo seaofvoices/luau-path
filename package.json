@@ -30,9 +30,9 @@
     "luau-disk": "^0.1.1"
   },
   "devDependencies": {
-    "@jsdotlua/jest": "^3.6.1-rc.2",
-    "@jsdotlua/jest-globals": "^3.6.1-rc.2",
-    "npmluau": "^0.1.1"
+    "@jsdotlua/jest": "^3.10.0",
+    "@jsdotlua/jest-globals": "^3.10.0",
+    "npmluau": "^0.1.2"
   },
   "packageManager": "yarn@4.2.2"
 }
